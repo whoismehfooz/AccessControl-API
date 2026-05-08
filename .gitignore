@@ -1,0 +1,42 @@
+# 🔐 Environment
+
+.env
+
+# 🐍 Python
+
+**pycache**/
+*.pyc
+
+# 🧪 Virtual Environment
+
+venv/
+.venv/
+
+# 🗄️ Database
+
+*.db
+
+# 🧾 Logs
+
+*.log
+
+# 🧰 IDE
+
+.vscode/
+.idea/
+
+# 🐧 OS
+
+.DS_Store
+Thumbs.db
+
+# 📦 Build
+
+dist/
+build/
+*.egg-info/
+
+# 🧪 Cache
+
+.pytest_cache/
+.mypy_cache/
