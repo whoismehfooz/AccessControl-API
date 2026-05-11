@@ -5,7 +5,8 @@ class UserSchema(BaseModel):
     username: str
     password: str
     email: str
-
+    role: str = "user"
+    
     model_config = {"from_attributes": True}
 
 
@@ -13,6 +14,7 @@ class UserResponseSchema(BaseModel):
     id: int
     username: str
     email: str
+    role: str
 
     model_config = {"from_attributes": True}
 

@@ -32,7 +32,8 @@ def create_user(db: Session, data: UserSchema):
     new_user = UserModel(
         username=data.username,
         email=data.email,
-        hashed_password=hashed_password
+        hashed_password=hashed_password,
+        role=data.role
     )
     db.add(new_user)
     db.commit()
